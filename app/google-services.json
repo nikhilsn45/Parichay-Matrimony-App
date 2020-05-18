@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035605288380",
+    "firebase_url": "https://parichay2.firebaseio.com",
+    "project_id": "parichay2",
+    "storage_bucket": "parichay2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035605288380:android:cea6dd35208952b6b877b9",
+        "android_client_info": {
+          "package_name": "com.myapplication3.parichay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035605288380-h9ej96anpq1a4j65nhip5k8u864esd09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYru4-wGAennNLG5VD-0bbCWSgQKi8mWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035605288380-h9ej96anpq1a4j65nhip5k8u864esd09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/news"
+            android:icon="@drawable/ic_home_4dp"
+            android:title="News"/>
+
+        <item android:id="@+id/matrimony"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Matrimony"/>
+
+        <item android:id="@+id/Advertise"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Advertise"/>
+
+        <!--<item android:id="@+id/notification"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications"/>
+
+        <item android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"></item>-->
+    </group>
+
+
+    <item android:title="Tools">
+        <menu><item android:id="@+id/Subscribe"
+            android:icon="@drawable/ic_subscriptions_black_24dp"
+            android:title="Subscription"></item>
+
+            <item android:id="@+id/Contact"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Report Issue"></item>
+        </menu>
+    </item>
+
+</menu>

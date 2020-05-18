@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myapplication3.parichay">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Parichay"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.myapplication3.parichay.issue"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.myapplication3.parichay.login.reset_pass"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.myapplication3.parichay.full_mat_profile"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.myapplication3.parichay.ads.pay_ad"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.myapplication3.parichay.ads.publish_ad"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.myapplication3.parichay.sign_matrimony"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.myapplication3.parichay.subscription.PaymentActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myapplication3.parichay.subscription.subscribe"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.myapplication3.parichay.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.myapplication3.parichay.news_feed.full_newsFeed"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myapplication3.parichay.admin_panel.admin_pannel"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.myapplication3.parichay.profile.profile_setup"
+            android:parentActivityName="com.myapplication3.parichay.MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.myapplication3.parichay.login.signup"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myapplication3.parichay.splash.splah"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myapplication3.parichay.login.login_act"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.myapplication3.parichay.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
